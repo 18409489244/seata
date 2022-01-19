@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f98049d-535c-41f7-b613-81f8b269dd63" name="Default Changelist" comment="" />
+    <list default="true" id="0f98049d-535c-41f7-b613-81f8b269dd63" name="Default Changelist" comment="创建公共模块，代码抽取">
+      <change afterPath="$PROJECT_DIR$/seata-common-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/lyf/springcloud/alibaba/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/lyf/springcloud/alibaba/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/lyf/springcloud/alibaba/domain/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-common-service/src/main/java/com/lyf/springcloud/alibaba/entity/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/lyf/springcloud/alibaba/controller/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/lyf/springcloud/alibaba/controller/StorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/lyf/springcloud/alibaba/domain/CommonResult.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,7 +50,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/lyf/springcloud/alibaba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-common-service/src/main/java/com/lyf/springcloud/alibaba/entity" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -39,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\seata\seata-common-service\src\main\java\com\lyf\springcloud\alibaba\entity" />
       <recent name="D:\project\seata\seata-storage-service2002\src\main\java\com\lyf\springcloud\alibaba" />
       <recent name="D:\project\seata\seata-storage-service2002\src\main\resources" />
       <recent name="D:\project\seata\seata-order-service2001\src\main\java\com\lyf\springcloud\alibaba" />
@@ -102,10 +122,26 @@
       <option name="presentableId" value="Default" />
       <updated>1642568600189</updated>
       <workItem from="1642568602840" duration="1592000" />
+      <workItem from="1642583088054" duration="988000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建公共模块，代码抽取" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建公共模块，代码抽取" />
   </component>
 </project>

@@ -12,6 +12,13 @@
     <artifactId>seata-storage-service2002</artifactId>
 
     <dependencies>
+        <!--引入自定义的common服务-->
+        <dependency>
+            <groupId>com.lyf.springcloudalibaba</groupId>
+            <artifactId>seata-common-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <!--服务注册与发现中心-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

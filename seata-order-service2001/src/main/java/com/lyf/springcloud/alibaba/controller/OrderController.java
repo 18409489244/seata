@@ -1,7 +1,6 @@
 package com.lyf.springcloud.alibaba.controller;
-
-import com.lyf.springcloud.alibaba.domain.CommonResult;
 import com.lyf.springcloud.alibaba.domain.Order;
+import com.lyf.springcloud.alibaba.entity.CommonResult;
 import com.lyf.springcloud.alibaba.service.OrderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
